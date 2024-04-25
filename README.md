@@ -1,6 +1,6 @@
-# Football Players API
+# Shoes DATA API
 
-This project is a RESTful API for managing football players. It allows you to perform CRUD operations on football player data.
+This project is a RESTful API for managing data Shoes. It allows you to perform CRUD operations on shoes data.
 
 ## Getting Started
 
@@ -16,11 +16,11 @@ The server will start running on `http://localhost:3001`.
 
 The following endpoints are available:
 
-- `GET /shoes`: Get all players
-- `GET /shoes/:id`: Get a specific player by ID
-- `POST /shoes/add`: Create a new player
-- `PUT /shoes/edit/:id`: Update a player by ID
-- `DELETE /shoes/delete/:id`: Delete a player by ID
+- `GET /shoes`: Get all shoes
+- `GET /shoes/:id`: Get a specific shoes by ID
+- `POST /shoes/add`: Create a new shoes
+- `PUT /shoes/edit/:id`: Update a shoes by ID
+- `DELETE /shoes/delete/:id`: Delete a shoes by ID
 
 ## Sending Requests
 
