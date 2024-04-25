@@ -1,8 +1,6 @@
-// src/routes/index.js
-const express = require("express");
-const pool = require("./pool");
-
+const express = require('express');
 const router = express.Router();
+const pool = require("./pool");
 
 // Get all shoes
 router.get("/shoes", async (req, res) => {
